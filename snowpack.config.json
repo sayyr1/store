@@ -1,7 +1,7 @@
 {
   "mount": {
     "dist": "/",
-    "web": "/"
+    "src": "/"
   },
   "plugins": [
     [
