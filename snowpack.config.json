@@ -3,6 +3,7 @@
     "dist": "/",
     "src": "/"
   },
+
   "plugins": [
     [
       "@snowpack/plugin-build-script",
@@ -17,5 +18,9 @@
       }
     ],
     "@snowpack/plugin-sass"
-  ]
+  ],
+  "buildOptions": {
+    "out": "docs",
+    "metaUrlPath": "snowpack"
+  }
 }

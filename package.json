@@ -8,7 +8,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "snowpack build",
     "deploy": "gh-pages -d build",
     "clean": "rm build/dist/bundle.js",
     "start": "snowpack dev",
