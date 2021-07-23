@@ -1,0 +1,23 @@
+{
+  "mount": {
+    "dist": "/",
+    "src": "/"
+  },
+
+  "plugins": [
+    [
+      "@snowpack/plugin-build-script",
+      {
+        "cmd": "postcss",
+        "input": [
+          ".css"
+        ],
+        "output": [
+          ".css"
+        ]
+      }
+    ],
+    "@snowpack/plugin-sass"
+  ]
+
+}
