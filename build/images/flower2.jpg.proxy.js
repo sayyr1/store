@@ -1,0 +1,1 @@
+export default "/images/flower2.jpg";
