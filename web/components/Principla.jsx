@@ -8,7 +8,7 @@ const Principla = () => {
                 Hola
             </h1>
             <Link className="py-6 px-10 bg-yellow-500 rounded-full hover:bg-yellow-300 flex
-            items-center transition duration-300 ease-in-out animate-bounce">
+            items-center transition duration-300 ease-in-out animate-bounce" to="/">
                 Order Now
                 <svg className="w-6 h-6 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                      xmlns="http://www.w3.org/2000/svg">
